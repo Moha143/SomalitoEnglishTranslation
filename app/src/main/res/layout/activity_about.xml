@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#fcfcfc"
+    android:gravity="center"
+    android:id="@+id/ll">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+
+            >
+
+            <ImageView
+                android:layout_marginTop="25dp"
+                android:paddingTop="5dp"
+                android:layout_width="290dp"
+                android:layout_gravity="center"
+                android:layout_height="230dp"
+                android:src="@drawable/mo_omar"/>
+            <TextView
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:text="Name: Mohamed Omar Hassan"/>
+            <TextView
+                android:textSize="14sp"
+                android:id="@+id/tellphone"
+                android:textColor="@android:color/black"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="12dp"
+                android:textStyle="bold"
+
+                android:text="Tell: 615314730"
+                />
+
+
+            <TextView
+                android:textSize="14sp"
+                android:id="@+id/gmail"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:text="Gmail: moha143omar@gmail.com"
+                />
+            <TextView
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:id="@+id/facebook"
+
+                android:text="Facebook: Mo Omar"
+                />
+            />
+            <TextView
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:id="@+id/twitter"
+
+                android:text="Twitter: Khadar Malaysia"
+
+                />
+            <TextView
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="12dp"
+                android:textStyle="bold"
+
+                android:id="@+id/instagram"
+                android:text="Instagram: Khadar Malaysia"
+
+                />
+
+
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
